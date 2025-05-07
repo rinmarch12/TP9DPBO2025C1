@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  
+  <title>DATA_JUDUL</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Mahasiswa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="mb-4 text-center">DATA_JUDUL</h3>
+        <div class="card">
+          <div class="card-body">
+            <form method="post" action="DATA_FORM_ACTION">
+              DATA_FORM_ID
+              <div class="form-group row">
+                <label for="nim" class="col-sm-2 col-form-label">NIM</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="nim" name="nim" required value="DATA_NIM">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="nama" name="nama" required value="DATA_NAMA">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="tempat" class="col-sm-2 col-form-label">Tempat Lahir</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="tempat" name="tempat" required value="DATA_TEMPAT">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="tl" class="col-sm-2 col-form-label">Tanggal Lahir</label>
+                <div class="col-sm-10">
+                  <input type="date" class="form-control" id="tl" name="tl" required value="DATA_TL">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="gender" class="col-sm-2 col-form-label">Gender</label>
+                <div class="col-sm-10">
+                  <select class="form-control" id="gender" name="gender" required>
+                    <option value="">Pilih Gender</option>
+                    <option value="Laki-laki" DATA_SELECTED_LAKI>Laki-laki</option>
+                    <option value="Perempuan" DATA_SELECTED_PEREMPUAN>Perempuan</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" name="email" required value="DATA_EMAIL">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="telp" class="col-sm-2 col-form-label">Telepon</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="telp" name="telp" required value="DATA_TELP">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                  <button type="submit" class="btn btn-primary" name="DATA_SUBMIT_NAME">Simpan</button>
+                  <a href="index.php" class="btn btn-secondary">Kembali</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

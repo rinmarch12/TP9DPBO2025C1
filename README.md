@@ -64,7 +64,7 @@ Dokumentasi
 ---
 4. Delete
 ---
-![Form Edit Data](https://github.com/user-attachments/assets/01388ead-55d7-4109-8e24-85917cf19900)
+![Konfirmasi Delete](https://github.com/user-attachments/assets/4d989ee8-b899-41a7-98f3-e263da43bba0)
 
 
 
